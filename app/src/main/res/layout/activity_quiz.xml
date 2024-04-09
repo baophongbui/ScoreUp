@@ -102,18 +102,18 @@
                         android:layout_weight="0"
                         android:text="1" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text=" to "
-                        android:textColor="@color/black" />
+                    <!--                    <TextView-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:text=" to "-->
+                    <!--                        android:textColor="@color/black" />-->
 
-                    <TextView
-                        android:id="@+id/numTotalQuestion"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="0"
-                        android:text="6" />
+                    <!--                    <TextView-->
+                    <!--                        android:id="@+id/numTotalQuestion"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_weight="0"-->
+                    <!--                        android:text="6" />-->
                 </LinearLayout>
 
                 <TextView
@@ -137,62 +137,62 @@
                     android:orientation="vertical">
 
 
-                        <Button
-                            android:id="@+id/button_option1"
-                            android:layout_width="match_parent"
-                            android:layout_height="45dp"
-                            android:fontFamily="@font/montserrat"
-                            android:gravity="center_vertical"
-                            android:layout_marginBottom="5dp"
-                            android:text="A"
-                            android:textColor="@color/black"
-                            android:textSize="18dp" />
+                    <Button
+                        android:id="@+id/button_option1"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="5dp"
+                        android:text="A"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
 
 
 
 
 
-                        <Button
-                            android:id="@+id/button_option2"
-                            android:layout_width="match_parent"
-                            android:layout_height="45dp"
-                            android:fontFamily="@font/montserrat"
-                            android:gravity="center_vertical"
-                            android:text="B"
-                            android:layout_marginBottom="5dp"
-                            android:textColor="@color/black"
-                            android:textSize="18dp" />
-
-
-
-
-
-
-                        <Button
-                            android:id="@+id/button_option3"
-                            android:layout_width="match_parent"
-                            android:layout_height="45dp"
-                            android:fontFamily="@font/montserrat"
-                            android:gravity="center_vertical"
-                            android:text="C"
-                            android:layout_marginBottom="5dp"
-                            android:textColor="@color/black"
-                            android:textSize="18dp" />
+                    <Button
+                        android:id="@+id/button_option2"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center_vertical"
+                        android:text="B"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
 
 
 
 
 
 
-                        <Button
-                            android:id="@+id/button_option4"
-                            android:layout_width="match_parent"
-                            android:layout_height="45dp"
-                            android:fontFamily="@font/montserrat"
-                            android:gravity="center_vertical"
-                            android:text="D"
-                            android:textColor="@color/black"
-                            android:textSize="18dp" />
+                    <Button
+                        android:id="@+id/button_option3"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center_vertical"
+                        android:text="C"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+
+
+
+
+
+                    <Button
+                        android:id="@+id/button_option4"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center_vertical"
+                        android:text="D"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
 
 
 

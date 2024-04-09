@@ -1,3 +1,4 @@
+
 package com.example.scoreup;
 
 import android.content.Context;
@@ -64,8 +65,8 @@ public class QuizDatabaseHelper extends SQLiteOpenHelper {
         db.close();
     }
 
-    public Cursor getQuestionsForPart(String part) {
+    public Cursor getQuestionsForPart(String part, int limit) {
         SQLiteDatabase db = this.getReadableDatabase();
-        return db.rawQuery("SELECT * FROM " + TABLE_NAME + " WHERE " + COLUMN_PART + "=?", new String[]{part});
+        return db.rawQuery("SELECT * FROM " + TABLE_NAME + " WHERE " + COLUMN_PART + "=? LIMIT ?", new String[]{part, String.valueOf(limit)});
     }
 }
