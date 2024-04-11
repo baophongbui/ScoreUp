@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:gravity="start"
-    android:padding="8dp">
+    >
 
     <!-- Các Button -->
     <!-- Sẽ được tạo từ Java code -->
