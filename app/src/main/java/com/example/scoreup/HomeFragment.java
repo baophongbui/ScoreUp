@@ -50,7 +50,7 @@ public class HomeFragment extends Fragment {
         recyclerView2.setLayoutManager(new LinearLayoutManager(context,LinearLayoutManager.HORIZONTAL,false));
 
 
-        title.add("TOEIC (Listening &amp; Reading)");
+        title.add("TOEIC (Listening & Reading)");
         title.add("SAT");
         info.add("The Test of English for International Communication (TOEIC) is an international standardized test of English language proficiency for non-native speakers. It...");
         info.add("The SAT is an entrance exam used by most colleges and universities to make admissions decisions. The SAT is a multiple-choice, pencil-and-paper test created and administered by the College Board....");

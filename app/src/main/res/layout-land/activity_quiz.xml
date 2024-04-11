@@ -19,19 +19,18 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/firstLinearLayout"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="50dp"
                 android:background="@drawable/header_gradient"
-                android:paddingHorizontal="10dp"
-                android:paddingVertical="20dp">
+                android:paddingHorizontal="10dp">
 
                 <ImageButton
                     android:id="@+id/hamburger_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:backgroundTint="@color/optionBgr"
                     android:contentDescription="@string/hamburger_icon_description"
                     android:padding="16dp"
                     android:src="@drawable/ic_hamburger"
-                    android:backgroundTint="@color/optionBgr"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -70,23 +69,20 @@
 
         <ScrollView
             android:id="@+id/scrollView"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginTop="100dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="50dp"
             android:background="#F0F8FF"
-            app:layout_constraintTop_toBottomOf="@id/firstLinearLayout">
+            >
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:backgroundTint="@color/white"
                 android:layout_marginStart="30dp"
                 android:layout_marginEnd="30dp"
-                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
                 android:elevation="10dp"
                 android:background="@drawable/quiz_container"
                 android:padding="16dp">
@@ -102,6 +98,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
+                        android:textSize="9dp"
                         android:text="1" />
 
                     <!--                    <TextView-->
@@ -138,7 +135,7 @@
 
                         <ScrollView
                             android:layout_width="match_parent"
-                            android:layout_height="200dp"
+                            android:layout_height="0dp"
                             android:id="@+id/scroll"
                             android:padding="5dp"
                             >
@@ -157,8 +154,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Question"
-                    android:layout_marginTop="20dp"
-                    android:textSize="20sp"
+                    android:textSize="17sp"
                     android:textColor="@color/black"
                     android:gravity="center"
                     android:textStyle="bold" />
@@ -166,8 +162,6 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginBottom="20dp"
                     android:layout_marginHorizontal="15dp"
                     android:layout_gravity="center"
                     android:orientation="vertical">
@@ -176,13 +170,13 @@
                     <Button
                         android:id="@+id/button_option1"
                         android:layout_width="match_parent"
-                        android:layout_height="45dp"
+                        android:layout_height="37dp"
                         android:fontFamily="@font/montserrat"
                         android:gravity="center_vertical"
                         android:layout_marginBottom="5dp"
                         android:text="A"
                         android:textColor="@color/black"
-                        android:textSize="18dp" />
+                        android:textSize="15dp" />
 
 
 
@@ -191,13 +185,13 @@
                     <Button
                         android:id="@+id/button_option2"
                         android:layout_width="match_parent"
-                        android:layout_height="45dp"
+                        android:layout_height="37dp"
                         android:fontFamily="@font/montserrat"
                         android:gravity="center_vertical"
                         android:text="B"
                         android:layout_marginBottom="5dp"
                         android:textColor="@color/black"
-                        android:textSize="18dp" />
+                        android:textSize="15dp" />
 
 
 
@@ -207,13 +201,13 @@
                     <Button
                         android:id="@+id/button_option3"
                         android:layout_width="match_parent"
-                        android:layout_height="45dp"
+                        android:layout_height="37dp"
                         android:fontFamily="@font/montserrat"
                         android:gravity="center_vertical"
                         android:text="C"
                         android:layout_marginBottom="5dp"
                         android:textColor="@color/black"
-                        android:textSize="18dp" />
+                        android:textSize="15dp" />
 
 
 
@@ -223,12 +217,12 @@
                     <Button
                         android:id="@+id/button_option4"
                         android:layout_width="match_parent"
-                        android:layout_height="45dp"
+                        android:layout_height="37dp"
                         android:fontFamily="@font/montserrat"
                         android:gravity="center_vertical"
                         android:text="D"
                         android:textColor="@color/black"
-                        android:textSize="18dp" />
+                        android:textSize="15dp" />
 
 
 
@@ -241,25 +235,23 @@
 
                     <TextView
                         android:id="@+id/prev_button"
-                        android:layout_width="47dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         android:background="@drawable/arrow_prev_svgrepo_com"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toStartOf="@+id/next_button"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/next_button"
-                        android:layout_width="50dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         android:layout_marginStart="225dp"
                         android:background="@drawable/arrow_prev_svgrepo_com"
                         android:rotationY="-180"
                         android:textColor="@color/black"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toEndOf="@+id/prev_button"
                         app:layout_constraintTop_toTopOf="parent" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 

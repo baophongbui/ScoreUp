@@ -6,5 +6,31 @@
     <string name="hamburger_icon_description">Open menu</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="crepe">
+        <b>Nguyên liệu:</b> \n
+
+\t\t 1 1/2 tách bột mịn \n
+\t\t 3/4 tách sữa tươi \n
+\t\t 2 quả trứng \n
+\t\t 2 muỗng canh bơ chảy \n
+\t\t 1 muỗng canh đường \n
+\t\t 1/4 muỗng cà phê muối \n
+\t\t 1/2 muỗng cà phê vani tinh chất \n
+\t\t Berries (quả mâm xôi) tươi hoặc đông lạnh (dâu tây, việt quất, mâm xôi...) \n
+        <b>Hướng dẫn:</b> \n
+
+\t\t Trong một tô lớn, trộn bột mịn, đường và muối. \n
+\t\t Trong một tô khác, kết hợp sữa tươi, trứng và vani. Khi kết hợp, đánh tan trứng. \n
+\t\t Dùng một dụng cụ đánh trứng hoặc một cái đũa, kết hợp từ từ hỗn hợp sữa trứng vào hỗn hợp bột. Khi kết hợp, đảm bảo không có cục bột. \n
+\t\t Thêm bơ chảy vào hỗn hợp và khuấy đều. \n
+\t\t Đặt một chiếc chảo tráng men trên lửa vừa và để nó nóng. Đảm bảo chảo được tráng men hoặc sử dụng một ít bơ để tránh bánh dính vào chảo. \n
+\t\t Khi chảo đã nóng, múc một muỗng canh hoặc 1/4 cup hỗn hợp bột lên chảo và nhanh chóng lăn chảo để phủ đều bột trên mặt chảo. \n
+\t\t Chiên bánh trong khoảng 1-2 phút hoặc cho đến khi mặt bánh có màu vàng nhạt.\n
+\t\t Lật bánh crepe sang và chiên thêm khoảng 30 giây đến 1 phút ở mặt bánh còn lại.\n
+\t\t Chuyển bánh crepe ra từng đĩa riêng biệt và tiếp tục chiên các bánh crepe còn lại từ hỗn hợp bột.\n
+\t\t Khi đã chiên xong, bạn có thể chấm bánh crepe với các loại berries tươi hoặc đông lạnh như dâu tây, việt quất, mâm xôi. Có thể thêm một chút đường trên mặt berries để tăng hương vị.\n
+\t\t Cuộn bánh crepe lại hoặc gập thành nhiều lớp, sau đó trang trí bằng berries thêm lên trên.\n
+\t\t Bánh crepe và berries sẽ tạo nên một món tráng miệng ngon lành và hấp dẫn. Bạn có thể thưởng thức nó vào bất kỳ thời điểm nào trong ngày.\n
+    </string>
 
 </resources>

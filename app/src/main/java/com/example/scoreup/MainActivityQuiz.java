@@ -20,6 +20,16 @@ public class MainActivityQuiz extends AppCompatActivity {
         setContentView(R.layout.activity_quiz_main);
 
         Button btnStart = findViewById(R.id.btn_start);
+        Button btnBack = findViewById(R.id.btn_back);
+
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivityQuiz.this, MainActivity.class);
+                startActivity(intent);
+
+            }
+        });
 
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
