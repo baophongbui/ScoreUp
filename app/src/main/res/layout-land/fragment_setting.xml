@@ -86,16 +86,7 @@
                         android:layout_toEndOf="@id/buttonCancel"
                         android:text="Save" />
 
-                    <Button
-                        android:id="@+id/buttonCancel"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat"
 
-                        android:backgroundTint="#808080"
-                        android:layout_below="@id/editTextNewPassword"
-                        android:layout_marginStart="24dp"
-                        android:text="Cancel" />
                 </LinearLayout>
                 <!-- Username -->
 
