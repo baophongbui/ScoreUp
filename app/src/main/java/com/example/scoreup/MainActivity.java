@@ -5,12 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -19,7 +15,7 @@ import com.google.android.material.navigation.NavigationBarView;
 public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     HomeFragment homeFragment = new HomeFragment();
-    CourseFragment courseFragment = new CourseFragment();
+    SettingFragment courseFragment = new SettingFragment();
     AccountFragment accountFragment = new AccountFragment();
     String name;
 
@@ -48,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                     getSupportFragmentManager().beginTransaction().replace(R.id.container_main, homeFragment).commit();
                     return true;
                 }
-                if (item.getItemId() == R.id.txtCourse) {
+                if (item.getItemId() == R.id.txtSetting) {
                     getSupportFragmentManager().beginTransaction().replace(R.id.container_main, courseFragment).commit();
                     return true;
                 }

@@ -5,12 +5,12 @@
         android:title="Home"
         android:icon="@drawable/home"/>
 
-    <item android:id="@+id/txtCourse"
-        android:title="Course"
-        android:icon="@drawable/book"/>
-
 
     <item android:id="@+id/txtAccount"
         android:title="Account"
         android:icon="@drawable/account"/>
+
+    <item android:id="@+id/txtSetting"
+        android:title="Setting"
+        android:icon="@drawable/setting"/>
 </menu>
