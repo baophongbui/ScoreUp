@@ -28,15 +28,14 @@
                     android:background="@drawable/gradient_header"                    android:backgroundTintMode="src_atop"
                     android:hapticFeedbackEnabled="false"
                     android:orientation="vertical"
-                    android:paddingBottom="16dp">
+                    >
 
 
 
                     <TextView
                         android:id="@+id/textViewPersonalInformation"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="16dp"
+                        android:layout_height="55dp"
                         android:text="Personal Information"
                         android:textColor="@color/white"
                         android:fontFamily="@font/montserrat"
