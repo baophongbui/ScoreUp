@@ -14,13 +14,14 @@ import java.util.Collections;
 public class MainActivityQuiz extends AppCompatActivity {
     private ArrayList<String> selectedParts = new ArrayList<>();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_main);
-
         Button btnStart = findViewById(R.id.btn_start);
         Button btnBack = findViewById(R.id.btn_back);
+
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
