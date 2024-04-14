@@ -129,7 +129,6 @@
 
                             android:backgroundTint="#1d267d"
                             android:layout_below="@id/editTextNewPassword"
-                            android:layout_toEndOf="@id/buttonCancel"
                             android:text="Save" />
 
 
