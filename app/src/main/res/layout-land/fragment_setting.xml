@@ -31,15 +31,17 @@
                 >
 
 
-
                 <TextView
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
-                    android:layout_height="180dp"
-                    android:text="Setting"
-                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
                     android:fontFamily="@font/montserrat"
                     android:gravity="center"
+                    android:paddingBottom="16dp"
+                    android:text="Setting"
+                    android:layout_marginTop="16dp"
+
+                    android:textColor="@color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 

@@ -40,6 +40,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="80dp"
+                        android:fontFamily="@font/montserrat"
                         android:padding="10px"
                         android:paddingStart="10sp"
                         android:text="HomePage / Language / Toeic (Speaking and Writing)"
@@ -50,6 +51,7 @@
                         android:id="@+id/textView2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
                         android:padding="10px"
                         android:paddingStart="10sp"
                         android:text="TOEIC (Speaking and Writing)"
@@ -67,6 +69,7 @@
                     <TextView
                         android:id="@+id/textView9"
                         android:layout_width="120dp"
+                        android:fontFamily="@font/montserrat"
                         android:layout_height="wrap_content"
                         android:padding="16dp"
                         android:text="About"
@@ -81,6 +84,7 @@
                         android:layout_height="wrap_content"
                         android:padding="16dp"
                         android:text="Feedback"
+                        android:fontFamily="@font/montserrat"
                         android:textAlignment="center"
                         android:textColor="#9ba4b5"
                         android:textSize="18sp"
@@ -124,6 +128,7 @@
                         android:layout_marginTop="8dp"
                         android:text="About TOEIC (Speaking and Writing)"
                         android:textColor="@color/black"
+                        android:fontFamily="@font/montserrat"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -132,6 +137,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
+                        android:fontFamily="@font/montserrat"
                         android:text="The Test of English for International Communication (TOEIC) is an international standardized test of English language proficiency for non-native speakers. It is intentionally designed to measure the everyday English skills of people working in an international environment."
                         android:textSize="16sp" />
 
@@ -148,6 +154,7 @@
                     <TextView
                         android:id="@+id/textView13"
                         android:layout_width="match_parent"
+                        android:fontFamily="@font/montserrat"
                         android:layout_height="wrap_content"
                         android:text="Feedback will be shown here"
                         android:textColor="@color/black"
@@ -160,7 +167,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="16dp"
-
+                    android:fontFamily="@font/montserrat"
                     android:layout_marginRight="16dp"
                     android:layout_weight="1"
                     android:backgroundTint="#91d0e5"
@@ -180,7 +187,7 @@
                     android:layout_marginRight="16dp"
                     android:layout_weight="1"
                     android:backgroundTint="#1d267d"
-
+                    android:fontFamily="@font/montserrat"
                     android:elevation="20sp"
                     android:text="Short quiz (Coming soon)"
                     android:textSize="20sp" />

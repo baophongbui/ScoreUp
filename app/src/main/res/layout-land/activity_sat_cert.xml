@@ -25,6 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/headerbg"
+                android:fontFamily="@font/montserrat"
                 android:backgroundTintMode="src_atop"
                 android:hapticFeedbackEnabled="false">
 
@@ -38,6 +39,7 @@
                     android:text="HomePage / College and Graduate Programs"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp"
+                    android:fontFamily="@font/montserrat"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -107,6 +109,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="SAT"
+                                    android:fontFamily="@font/montserrat"
                                     android:textSize="20sp"
                                     android:textStyle="bold"
                                     app:layout_constraintStart_toStartOf="parent"
@@ -134,8 +137,9 @@
                             <TextView
                                 android:id="@+id/textView42"
                                 android:layout_width="match_parent"
+                                android:fontFamily="@font/montserrat"
                                 android:layout_height="wrap_content"
-                                android:text="Time: 180 \n Total questions: 154 \n Max score: 1600"
+                                android:text="Time: 180 \nTotal questions: 154 \nMax score: 1600"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
 
@@ -143,6 +147,7 @@
                                 android:id="@+id/textView52"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat"
                                 android:text="The SAT is an entrance exam used by most colleges and universities to make admissions decisions. The SAT is a...               " />
 
                             <Button
@@ -150,7 +155,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:backgroundTint="#1d267d"
-
+                                android:fontFamily="@font/montserrat"
                                 android:text="Learn more" />
                         </LinearLayout>
                     </FrameLayout>
@@ -178,7 +183,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-
+                        android:fontFamily="@font/montserrat"
                         android:backgroundTint="#CCE6FD"
                         android:text="Prev"
                         android:textColor="#000000" />
@@ -187,6 +192,7 @@
                         android:id="@+id/textView6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat"
                         android:layout_weight="1"
                         android:text="1/1"
                         android:textAlignment="center" />
@@ -196,6 +202,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="@font/montserrat"
                         android:backgroundTint="#CCE6FD"
                         android:text="Next"
                         android:textColor="#000000" />

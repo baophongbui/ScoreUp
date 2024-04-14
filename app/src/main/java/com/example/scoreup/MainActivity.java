@@ -15,7 +15,7 @@ import com.google.android.material.navigation.NavigationBarView;
 public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     HomeFragment homeFragment = new HomeFragment();
-    SettingFragment courseFragment = new SettingFragment();
+    SettingFragment settingFragment = new SettingFragment();
     AccountFragment accountFragment = new AccountFragment();
     String name;
 
@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
         Bundle data = new Bundle();
         data.putString("username",name);
         Toast.makeText(MainActivity.this, "username: " + name, Toast.LENGTH_SHORT).show();
-
         homeFragment.setArguments(data);
         fragmentTransaction.replace(R.id.container_main,homeFragment).commit();
 //        getSupportFragmentManager().beginTransaction().replace(R.id.container_main,homeFragment).commit();
@@ -45,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 }
                 if (item.getItemId() == R.id.txtSetting) {
-                    getSupportFragmentManager().beginTransaction().replace(R.id.container_main, courseFragment).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.container_main, settingFragment).commit();
                     return true;
                 }
                 if (item.getItemId() == R.id.txtAccount) {
