@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -20,13 +21,17 @@ public class CourseRVAdapter extends RecyclerView.Adapter<CourseRVAdapter.Course
     ArrayList<String> title = new ArrayList<>();
     ArrayList<String> info = new ArrayList<>();
     ArrayList<Integer> img = new ArrayList<>();
+    ArrayList<Button> fulltest = new ArrayList<>();
+    ArrayList<Button> details = new ArrayList<>();
     private HomeFragment homeFragment;
     private Context context;
     //    private final RecyclerViewInterface recyclerViewInterface;
-    public CourseRVAdapter(ArrayList<String> title, ArrayList<String> info, ArrayList<Integer> img, Context context) {
+    public CourseRVAdapter(ArrayList<String> title, ArrayList<String> info, ArrayList<Integer> img,ArrayList<Button> fulltest,ArrayList<Button> details, Context context) {
         this.title = title;
         this.info = info;
         this.img = img;
+        this.fulltest = fulltest;
+        this.details = details;
         this.context = context;
     }
 
@@ -43,7 +48,7 @@ public class CourseRVAdapter extends RecyclerView.Adapter<CourseRVAdapter.Course
         holder.txtTitle.setText(title.get(position));
         holder.txtInfo.setText(info.get(position));
         holder.imgCourse.setImageResource(img.get(position));
-        holder.constraintLayout.setOnClickListener(v -> {
+        holder.fulltest.setOnClickListener(v -> {
             if (position == 0){
                 Toast.makeText(context,"1",Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(context,MainActivityQuiz.class);
@@ -51,6 +56,22 @@ public class CourseRVAdapter extends RecyclerView.Adapter<CourseRVAdapter.Course
 
             } else if (position == 1){
                 Toast.makeText(context,"2",Toast.LENGTH_SHORT).show();
+
+            } else if (position == 2){
+                Toast.makeText(context,"3",Toast.LENGTH_SHORT).show();
+
+            }
+        });
+        holder.details.setOnClickListener(v -> {
+            if (position == 0){
+                Toast.makeText(context,"1",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(context, ToeicCert.class);
+                context.startActivity(intent);
+
+            } else if (position == 1){
+                Toast.makeText(context,"2",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(context, SatCert.class);
+                context.startActivity(intent);
 
             } else if (position == 2){
                 Toast.makeText(context,"3",Toast.LENGTH_SHORT).show();
@@ -67,10 +88,12 @@ public class CourseRVAdapter extends RecyclerView.Adapter<CourseRVAdapter.Course
     public static class CourseViewHolder extends RecyclerView.ViewHolder{
         private TextView txtInfo, txtTitle;
         private ImageView imgCourse;
+        private Button fulltest,details;
         private ConstraintLayout constraintLayout;
         public CourseViewHolder(@NonNull View itemView) {
             super(itemView);
-
+            fulltest = itemView.findViewById(R.id.btnFullTest);
+            details = itemView.findViewById(R.id.btnDetail);
             txtTitle = itemView.findViewById(R.id.txtTitle);
             txtInfo = itemView.findViewById(R.id.txtInfo);
             imgCourse = itemView.findViewById(R.id.imgCourse);
